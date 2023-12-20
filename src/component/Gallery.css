@@ -1,0 +1,145 @@
+.galler-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: linear-gradient(to right, rgba(249, 207, 127, 1) 0%,
+     rgba(249, 207, 127, 1) 85%,
+      rgba(251, 159, 21, 1) 85%,
+       rgba(251, 159, 21, 1) 100%);
+   
+}
+.gallery-text{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 130px ;
+    width: 50%;
+    height: 330px;
+  
+    
+}
+.gallery-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 330px;
+}
+#more{
+    font-weight: bold;
+    border: none; 
+    width:40%;
+    height: 40px;
+    background-color: rgba(255, 153, 0, 1);
+}
+.more-photo{
+    background-color: rgba(255, 190, 92, 1);
+    width: 100%;
+    height: 100%;
+}
+
+.more-gallery{
+    width: 100%;
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.button-group{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+#btn{
+    font-weight: bold;
+    border: none;
+    width: 20%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: rgba(255, 153, 0, 1);
+}
+#btn:hover{
+    background-color:snow;
+    
+}
+
+.gallery-photo{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: repeat(4 ,250px);
+    
+}
+#map-img{
+    width: 280px;
+    height:200px;
+}
+@media screen  and (Max-width: 415px){
+    .gallery-photo{
+        grid-template-columns: repeat(2,150px);
+        gap: 10px;
+        overflow-y: scroll;
+        padding: 10px 0px 25px 0px;
+       
+    }
+    #btn{
+        font-size: 10px;
+        height: 35%;
+
+    
+    }
+    .button-group{
+
+        justify-content: space-around;
+        gap: 10px;
+    
+    }
+    .galler-main{    
+        flex-direction: column-reverse;
+
+    }
+    .gallery-text{
+    
+    justify-content: center;
+    align-items: center;
+        padding: 0px 0px  ;
+        width: 100%;
+        height: 200px;
+      
+        
+    }
+    .gallery-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 250px;
+        
+    }
+    #map-img{
+        width: 150px;
+        height:100px;
+    }
+    .more-gallery{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .more-photo{
+        background-color: rgba(255, 190, 92, 1);
+        width: 100%;
+        height:fit-content;
+    }
+}
