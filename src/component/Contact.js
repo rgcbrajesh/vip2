@@ -12,7 +12,7 @@ const HandleSubmit = (event)=>{
 
     return (
         <div >
-            <h1 id='contact-title' >CONTACT-US</h1>
+            <h1 id='contact-title' >CONTACT-US PAGE</h1>
             <div className="contact-div">
                 <div className="container">
                     <div className="row">

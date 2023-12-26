@@ -46,6 +46,7 @@ export default function Footer() {
             </div>
             <div className="copyright">
                 <p> Copyright © Vision Public School 2023.All right reserved.  </p>
+                <p className="dharda" >This website is created by DeveloperHarda :)</p>
             </div>
         </div>
         <div className='footer-mobile' >
@@ -65,6 +66,7 @@ export default function Footer() {
                     </div>
                     <div className=' w-100'>
                         <p className=' text-center p5 fw-bold '>Copyright @ 2023 Vision International Public School</p>
+                     
                     </div>
                 </div>
             </div>

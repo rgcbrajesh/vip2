@@ -34,9 +34,9 @@ const Navbar = () => {
           <ul>
             <li id='home'><a href="/">Home</a></li>
 
-            <li> <span><a href="#">About-us</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
+            <li> <span><a href="#.">About-us</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
               <div class="dropdown-menu">
-                <ul >
+                <ul>
                   <li> <Link to='/vision' ><a href="/">Vision and Mission</a></Link> </li>
                   <li> <Link to='/aim'><a href="/">Aims</a></Link> </li>
                   <li> <Link to='/conduct'> <a href="/">Conduct At a Glance</a></Link></li>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 </ul>
               </div>
             </li>
-            <li><span><a href="#" className='mt-4'>Academic</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
+            <li><span><a href="#." className='mt-4'>Academic</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
 
               <div class="dropdown-menu">
                 <ul>
@@ -59,7 +59,7 @@ const Navbar = () => {
               </div>
             </li>
 
-            <li><span><a href="#" className='mt-4'>Infastructure</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
+            <li><span><a href="#." className='mt-4'>Infastructure</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
 
               <div class="dropdown-menu">
                 <ul>
@@ -72,10 +72,10 @@ const Navbar = () => {
                 </ul>
               </div>
             </li>
-            <li> <Link to='gallery1'> <a href="/">Gallery</a></Link></li>
+            <li> <Link to='/gallery1'> <a href="/">Gallery</a></Link></li>
 
-            <li><Link to='contactus'  ><a href="/">Contact us</a></Link> </li>
-            <li><Link to='result' > <button>RESULT</button></Link></li>
+            <li><Link to='/contactus'  ><a href="/">Contact us</a></Link> </li>
+            <li><Link to='/result' > <button>RESULT</button></Link></li>
           </ul>
         </div>
         <div className="navbar-toggle" onClick={handleToggleMenu}>

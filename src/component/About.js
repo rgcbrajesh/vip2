@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Dogne from "./img-logo/dogneji.jpg"
 import Kunal from './img-logo/kunaldogne-removebg-preview.png'
+import principle from "./img-logo/principle.jpg"
 import "./Style.css"
 
 
@@ -98,7 +99,7 @@ export default function About() {
 
               <div className="dogneji">
                 <div id='div-name' >
-                  <img src="" alt="" className='SoniSir' id='img' />
+                  <img src={principle} height={500} width={300} alt="" className='SoniSir' id='img' />
                   <div className="row" id='name'>
                     <div className="col-md-12">
 

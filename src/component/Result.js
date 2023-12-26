@@ -12,7 +12,7 @@ export default function Result() {
 
     const handleSearch = () => {
         const filteredItems = item.filter((elem) => {
-            return search.trim() === '' ? false : elem.Name.toLowerCase().includes(search.toLowerCase());
+            return search.trim() === '' ? false : elem.Name.toString().includes(search.toString());
         });
         setSearchResult(filteredItems);
     };
