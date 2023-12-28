@@ -59,7 +59,7 @@ const Navbar = () => {
               </div>
             </li>
 
-            <li><span><a href="#." className='mt-4'>Infastructure</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
+            <li><span><a href="#." className='mt-4'>Infrastructure</a><img src={dropdown} id='dropdown-icon' alt="..." /></span>
 
               <div class="dropdown-menu">
                 <ul>

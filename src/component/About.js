@@ -99,11 +99,11 @@ export default function About() {
 
               <div className="dogneji">
                 <div id='div-name' >
-                  <img src={principle} height={500} width={300} alt="" className='SoniSir' id='img' />
+                  <img src={principle} height={500} width={300}  alt="" className='SoniSir' id='img' />
                   <div className="row" id='name'>
                     <div className="col-md-12">
 
-                      <h1>Mr. Dev Soni </h1>
+                      <h1 className='ms-5' >Mr. Dev Soni </h1>
                       <div>
                         <button id='btn-message' onClick={toggleVisibility}>
                           {isVisible ? 'Hide Message' : 'Show Message'}

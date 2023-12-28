@@ -536,6 +536,13 @@ textarea {
     margin-left: 40px;
 
   }
+  .SoniSir{
+    margin-left: 70px !important;
+    height:200px !important;
+    width:200px !important;
+    border-radius:20px;
+
+  }
 }
 
 /* footer styling */
@@ -681,7 +688,7 @@ textarea {
 
 /* navbar styling */
 #home {
-  margin-left: 75px;
+  margin-left: 65px;
 }
 
 .logo {

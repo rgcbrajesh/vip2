@@ -26,7 +26,7 @@ export default function Gallery() {
         <div className="gallery-text">
           <h1>SCHOOL SPIRIT ON POINTS!</h1>
           <p>Learning,Laughing,Living....</p>
-          <button id='more'>Rede More</button>
+          <button id='more'>Read More</button>
         </div>
 
         <div className="gallery-img">
